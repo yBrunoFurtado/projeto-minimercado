@@ -1,42 +1,34 @@
+# 🛒 Minimercado Online
+
+**Fase 1** do projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**, na universidade **PUCRS**.  
+
+O objetivo é criar a estrutura inicial de um **sistema web** para um minimercado, utilizando **apenas HTML**, sem CSS, Bootstrap ou JavaScript.
 
 ---
 
-## 🛍️ Produtos Exibidos
+## 🎯 Objetivo e Metas
 
-**Frutas e Verduras**
-- Maçã Gala – R$ 6,99/kg  
-- Tomate Italiano – R$ 7,50/kg  
+**Objetivo geral**  
+Desenvolver um sistema web simples para apresentação dos produtos e serviços de um minimercado.
 
-**Produtos Não Perecíveis**
-- Arroz 5kg – R$ 25,00  
-- Feijão Carioca 1kg – R$ 8,00  
-
-**Higiene e Limpeza**
-- Sabão em Pó 1kg – R$ 12,00  
-- Detergente 500ml – R$ 3,50  
-
+**Metas específicas**
+- Criar páginas em HTML com cabeçalho, corpo e rodapé.  
+- Exibir **categorias de produtos**.  
+- Exibir os **serviços oferecidos** (retirada no local e tele-entrega).  
+- Disponibilizar a navegação entre páginas.  
+- Organizar o código em um **repositório no GitHub**.
+- Utilizar o **GitHub Pages** para hospedagem do projeto .  
+  
 ---
 
-## 🚚 Serviços Oferecidos
+## 📂 Estrutura do Projeto
 
-- **Retirada no Local:** gratuita  
-- **Tele-entrega:** taxa fixa de R$ 7,00  
+/projeto-minimercado
+├── index.html # Página inicial
+├── categorias.html # Listagem de produtos por categoria
+├── servicos.html # Serviços do minimercado
+└── contato.html # Informações de contato
 
----
 
-## 👨‍💻 Tecnologias Utilizadas
+Projeto acadêmico desenvolvido por **Bruno Furtado** – 2025.  
 
-- HTML5 (sem CSS, Bootstrap ou JavaScript nesta fase)
-
----
-
-## 📎 Repositório GitHub
-
-🔗 [Clique aqui para acessar o repositório do projeto](https://github.com/SEU-USUARIO/projeto-minimercado)  
-*(Substitua pelo link real do seu repositório após o upload)*  
-
----
-
-## ✍️ Autor
-
-Projeto acadêmico desenvolvido por **[Seu Nome]** – 2025.  
