@@ -22,12 +22,13 @@ Desenvolver um sistema web simples para apresentação dos produtos e serviços 
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 /projeto-minimercado
-├── index.html # Página inicial
-├── categorias.html # Listagem de produtos por categoria
-├── servicos.html # Serviços do minimercado
-└── contato.html # Informações de contato
+├── index.html        # Página inicial
+├── categorias.html   # Listagem de produtos por categoria
+├── servicos.html     # Serviços do minimercado
+└── contato.html      # Informações de contato
+
 
 
 ## ✍️ Autor
