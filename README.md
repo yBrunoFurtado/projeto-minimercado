@@ -30,5 +30,8 @@ Desenvolver um sistema web simples para apresentação dos produtos e serviços 
 └── contato.html # Informações de contato
 
 
-Projeto acadêmico desenvolvido por **Bruno Furtado** – 2025.  
+## ✍️ Autor
+
+Projeto acadêmico desenvolvido por **Bruno Furtado** – 2025.
+
 
