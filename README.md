@@ -1,6 +1,6 @@
 # 🛒 Minimercado Online
 
-**Fase 1 e 2 ** do projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**, na universidade **PUCRS**.  
+**Fase 1 ** e *Fase 2 ** do projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**, na universidade **PUCRS**.  
 
 O objetivo é criar um pequeno sistema web simples desenvolvido em **HTML, CSS/Bootstrap e JavaScript**, com o objetivo de simular um site de um minimercado.
 
