@@ -1,8 +1,9 @@
 # 🛒 Minimercado Online
 
-**Fase 1** do projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**, na universidade **PUCRS**.  
+**Fase 1 e 2 ** do projeto desenvolvido para a disciplina de **Fundamentos de Sistemas Web**, na universidade **PUCRS**.  
 
-O objetivo é criar a estrutura inicial de um **sistema web** para um minimercado, utilizando **apenas HTML**, sem CSS, Bootstrap ou JavaScript.
+O objetivo é criar um pequeno sistema web simples desenvolvido em **HTML, CSS/Bootstrap e JavaScript**, com o objetivo de simular um site de um minimercado.
+
 
 ---
 
@@ -11,26 +12,55 @@ O objetivo é criar a estrutura inicial de um **sistema web** para um minimercad
 **Objetivo geral**  
 Desenvolver um sistema web simples para apresentação dos produtos e serviços de um minimercado.
 
-**Metas específicas**
-- Criar páginas em HTML com cabeçalho, corpo e rodapé.  
-- Exibir **categorias de produtos**.  
-- Exibir os **serviços oferecidos** (retirada no local e tele-entrega).  
-- Disponibilizar a navegação entre páginas.  
-- Organizar o código em um **repositório no GitHub**.
-- Utilizar o **GitHub Pages** para hospedagem do projeto .  
+## 🚀 Funcionalidades
+
+### ✅ Fase 1
+- Estrutura inicial em HTML.
+- Páginas: **Início, Categorias, Serviços e Contato**.
+- Produtos organizados em 3 categorias:
+  - Frutas e Verduras
+  - Não Perecíveis
+  - Higiene e Limpeza
+- Inclusão de imagens e descrições dos produtos.
+
+### 🎨 Fase 2 (Atualização)
+- **Bootstrap e CSS** para layout responsivo e carrossel de imagens.
+- **JavaScript** para funcionalidades dinâmicas.
+- **Formulário de cadastro do cliente** com campos obrigatórios:
+  - Nome, Endereço, CPF, Sexo, Telefone, E-mail etc.
+- **Agendamento** de entrega ou retirada com escolha de data e horário.
+- **Acessibilidade**: uso de atributos `alt` em todas as imagens para leitores de tela.
+- **Rodapé fixo** melhorado para a página de Contato.
+
+---
   
 ---
 
 ## 📂 Estrutura do Projeto
 ```
-/projeto-minimercado
-├── index.html        # Página inicial
-├── categorias.html   # Listagem de produtos por categoria
-├── servicos.html     # Serviços do minimercado
-└── contato.html      # Informações de contato
+projeto-minimercado
+├── index.html # Página inicial (com carrossel e destaque)
+├── categorias.html # Listagem de produtos por categoria
+├── servicos.html # Serviços do minimercado (cadastro e agendamento)
+├── contato.html # Página de contato
+├── imagens/ # Pasta de imagens utilizadas no site
+└── style.css # Estilos adicionais
 
 
 ```
+## 🌐 Deploy
+
+O projeto está disponível no **GitHub Pages**:  
+👉 [Acessar Minimercado](https://.github.io/NOMEDOREPOSITORIO/)
+
+---
+
+## 📌 Tecnologias Utilizadas
+- HTML5
+- CSS3 / Bootstrap
+- JavaScript
+- GitHub Pages
+  
 ## ✍️ Autor
 
 Projeto acadêmico desenvolvido por **Bruno Furtado** – 2025.
