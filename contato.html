@@ -1,43 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Minimercado Online - Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimercado - Contato</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+    footer {
+      background-color: #212529;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
+  <!-- tal da navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Minimercado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Minimercado Online</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="categorias.html">Categorias</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-        <hr>
-    </header>
+  <!-- Conteúdo -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Fale Conosco</h2>
+    <div class="row">
+      <!-- Informações de ctt -->
+      <div class="col-md-6">
+        <h5>Informações de Contato</h5>
+        <p><strong>Endereço:</strong> Rua Ernesto Alves, 123 - Centro</p>
+        <p><strong>Telefone:</strong> (55) 99999-9999</p>
+        <p><strong>E-mail:</strong> contato@minimercado.com</p>
+        <p><strong>Instragram:</strong> @minimercadoOnline</p>
+        <p><strong>Horário de atendimento:</strong> Seg a Sáb, das 8h às 20h</p>
+      </div>
+      <!-- Formulário -->
+      <div class="col-md-6">
+        <h5>Envie uma mensagem</h5>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome*</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail*</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem*</label>
+            <textarea class="form-control" id="mensagem" rows="3" placeholder="Escreva sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
 
-    <!-- Corpo -->
-    <main>
-        <h2>Fale Conosco</h2>
-        <p>Email: minimercado@email.com</p>
-        <p>Telefone: (55) 99999-9999</p>
-        <p>Endereço: Rua Ernesto Alves, 123 - Centro</p>
-        <p>Instagram: @minimercadoOnline</p>
-    </main>
+  <!-- footer -->
+  <footer>
+    <p>© 2025 Minimercado. Todos os direitos reservados.</p>
+  </footer>
 
-   <footer>
-        <hr>
-        <p>© 2025 - Projeto acadêmico desenvolvido por Bruno Furtado</p>
-        <p>Contato: minimercado@email.com</p>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="categorias.html">Categorias</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

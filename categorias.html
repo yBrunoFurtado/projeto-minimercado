@@ -1,58 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Minimercado Online - Categorias</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorias - Minimercado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Minimercado Online</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="categorias.html">Categorias</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-        <hr>
-    </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Minimercado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Corpo </p>-->
-    <main>
-        <h2>Produtos</h2>
+  <!-- Conteúdo -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Categorias de Produtos</h2>
 
-        <h3>Frutas e Verduras</h3>
-        <p><img src="imagens/maca_verde.avif"    alt="Maçã Verde"> Maçã Verde - R$ 6,99/kg</p>
-        <p><img src="imagens/tomate_italiano.jpg" alt="Tomate Italiano"> Tomate Italiano - R$ 7,50/kg</p>
-        <p><img src="imagens/banana.jpg"    alt="Banana Prata"> Banana Prata - R$ 7,00/kg</p>
+    <!-- Frutas e Verduras -->
+    <h4 class="mt-4">Frutas e Verduras</h4>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/maca_verde.avif" class="card-img-top" alt="Maçãs verdes">
+          <div class="card-body">
+            <h5 class="card-title">Maçã verde</h5>
+            <p class="card-text">Maçã verde.</p>
+            <p class="fw-bold">R$ 5,00/kg</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md- col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/tomate_italiano.jpg" class="card-img-top" alt="Tomate italiano">
+          <div class="card-body">
+            <h5 class="card-title">Tomate italiano</h5>
+            <p class="card-text">Tomate italiano.</p>
+            <p class="fw-bold">R$ 3,00/unidade</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/Captura de tela 2025-09-02 150606.png" class="card-img-top" alt="Tangerina">
+          <div class="card-body">
+            <h5 class="card-title">Tangerina Montenegrina</h5>
+            <p class="card-text">Tangerina Montenegrina.</p>
+            <p class="fw-bold">R$ 7,90/kg</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <h3>Produtos Não Perecíveis</h3>
-        <p><img src="imagens/arroz.jpg.webp" alt="Arroz 5kg"> Arroz 5kg - R$ 25,00</p>
-        <p><img src="imagens/feijao_preto.jpg" alt="Feijão Carioca 1kg"> Feijão Carioca 1kg - R$ 8,00</p>
-        <p><img src="imagens/cafe_jacu.jpg"Café Jacu Bird 100g"> Café Jacu Bird - R$ 149,50/100g</p>
+    <!-- Não Perecíveis -->
+    <h4 class="mt-5">Não Perecíveis</h4>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/arroz.jpg.webp" class="card-img-top" alt="Pacote de arroz branco de 5kg">
+          <div class="card-body">
+            <h5 class="card-title">Arroz 5kg</h5>
+            <p class="card-text">Arroz branco tipo 1.</p>
+            <p class="fw-bold">R$ 25,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/feijao_preto.jpg" class="card-img-top" alt="Pacote de feijão carioca de 1kg">
+          <div class="card-body">
+            <h5 class="card-title">Feijão 1kg</h5>
+            <p class="card-text">Feijão carioca Camil.</p>
+            <p class="fw-bold">R$ 7,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/22222.png" class="card-img-top" alt="Café Jacu 1 Kg">
+          <div class="card-body">
+            <h5 class="card-title">Café Jacu Bird</h5>
+            <p class="card-text">Café Jacu Bird de 1 Kg.</p>
+            <p class="fw-bold">R$ 1510,00</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
 
+    <!-- Higiene e Limpeza -->
+    <h4 class="mt-5">Higiene e Limpeza</h4>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/escova_colgate.jpg" class="card-img-top" alt="Escova colgate 2 unidades">
+          <div class="card-body">
+            <h5 class="card-title">Escova Colgate </h5>
+            <p class="card-text">Escova com infusão de carvão - 2 unidades </p>
+            <p class="fw-bold">R$ 10,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/detergente.jpg" class="card-img-top" alt="Frasco de detergente líquido verde">
+          <div class="card-body">
+            <h5 class="card-title">Detergente</h5>
+            <p class="card-text">Detergente líquido neutro.</p>
+            <p class="fw-bold">R$ 2,50</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm">
+          <img src="imagens/omo.webp" class="card-img-top" alt="Pacote de sabão em pó OMO">
+          <div class="card-body">
+            <h5 class="card-title">OMO </h5>
+            <p class="card-text">Sabão em pó Omo 800g</p>
+            <p class="fw-bold">R$ 7,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <h3>Higiene e Limpeza</h3>
-        <p><img src="imagens/omo.webp" alt="Sabão em Pó"> Sabão em Pó 1kg - R$ 12,00</p>
-        <p><img src="imagens/detergente.jpg" alt="Detergente"> Detergente 500ml - R$ 3,50</p>
-        <p><img src="imagens/escova_colgate.jpg" alt="Escova dental Colgate Black"> Escova dental Colgate Black - R$ 23,80</p>
+  <!-- Rodapé -->
+  <footer class="bg-dark text-light text-center py-3 mt-5">
+    <p>&copy; 2025 Minimercado. Todos os direitos reservados.</p>
+  </footer>
 
-    </main>
-
-    <!-- Rodapé -->
-    <footer>
-        <hr>
-        <p>© 2025 - Projeto acadêmico desenvolvido por Bruno Furtado</p>
-        <p>Contato: minimercado@email.com</p>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="categorias.html">Categorias</a> |
-            <a href="servicos.html">Serviços</a> |
-            <a href="contato.html">Contato</a>
-        </nav>
-    </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
