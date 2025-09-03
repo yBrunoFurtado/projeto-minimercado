@@ -51,7 +51,7 @@ projeto-minimercado
 ## 🌐 Deploy
 
 O projeto está disponível no **GitHub Pages**:  
-👉 [Acessar Minimercado][(https://.github.io/NOMEDOREPOSITORIO/)](https://ybrunofurtado.github.io/projeto-minimercado/)
+👉 [Acessar Minimercado][([https://.github.io/projeto-minimercado/](https://ybrunofurtado.github.io/projeto-minimercado/contato.html))]
 
 ---
 
