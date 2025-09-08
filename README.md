@@ -38,13 +38,14 @@ Desenvolver um sistema web simples para apresentação dos produtos e serviços 
 
 ## 📂 Estrutura do Projeto
 ```
-projeto-minimercado
-├── index.html # Página inicial (com carrossel e destaque)
-├── categorias.html # Listagem de produtos por categoria
-├── servicos.html # Serviços do minimercado (cadastro e agendamento)
-├── contato.html # Página de contato
-├── imagens/ # Pasta de imagens utilizadas no site
-└── style.css # Estilos adicionais
+/projeto-minimercado
+├── index.html        # Página inicial com destaques
+├── categorias.html   # Listagem de produtos por categoria
+├── servicos.html     # Serviços disponíveis + agendamento
+├── contato.html      # Informações de contato + formulário
+├── cadastro.html     # Cadastro de clientes
+├── style.css         # Estilos globais do site
+└── imagens/          # Imagens dos produtos e layout
 
 
 ```
